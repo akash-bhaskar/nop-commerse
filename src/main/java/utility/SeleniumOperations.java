@@ -165,5 +165,25 @@ public class SeleniumOperations
 		input6[0]="//*[@class='button-1 login-button']";
 		SeleniumOperations.clickable(input6);
 		
+		//click on computers
+				Object[] input7=new Object [1];
+				input7[0]="(//*[text()='Computers '])[1]";
+				SeleniumOperations.clickable(input7);
+				
+				//click on software
+				Object[] input8=new Object [1];
+				input8[0]="(//*[text()='Software '])[3]";
+				SeleniumOperations.clickable(input8);
+				
+				//click to add windows 8 pro to cart
+				Object[] input9=new Object [1];
+				input9[0]="(//*[text()='Add to cart'])[2]";
+				SeleniumOperations.clickable(input9);
+				
+				//check in cart
+				Object[] input10=new Object [1];
+				input10[0]="//*[@class='ico-cart']";
+				SeleniumOperations.clickable(input10);
+		
 	}
 }

@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 				plugin = "pretty",
 				features = "src/main/resources/BussinessLogic",
 				glue = "cucumbermap",
-				tags = "@SmokeTest",
+				tags = "@RegressionTest",
 				monochrome = true
 		)
 public class RunTest 
